@@ -1,7 +1,7 @@
-📧 Excel Merge and Email Automation with Outlook
+#📧 Excel Merge and Email Automation with Outlook
 This Python script automates the process of merging multiple Excel files from a directory, generating a single final spreadsheet, and sending it via Outlook email.
 
-🚀 Features
+##🚀 Features
 Reads and merges all .xlsx files from a specified folder
 
 Saves the merged data into a new Excel file
@@ -10,7 +10,7 @@ Sends the resulting file as an attachment through Microsoft Outlook
 
 User input for customization (file name, recipient email, and sender name)
 
-🛠 Requirements
+##🛠 Requirements
 Python 3.8+
 
 Microsoft Outlook installed on your system
@@ -21,7 +21,7 @@ Required Python libraries:
     pip install pandas pywin32 openpyxl
 ```
 
-📌 How to Use
+##📌 How to Use
 
 Put the folder path:
 ```bash
@@ -35,7 +35,7 @@ Run the script:
     python main.py
 ```
 
-Provide the requested inputs:
+##Provide the requested inputs:
 
 Number for the final spreadsheet
 
@@ -45,7 +45,7 @@ Your name (for email signature)
 
 The script will open an Outlook email draft with the final file attached and send it automatically.
 
-🧠 Author
+##🧠 Author
 Created by a young developer passionate about Python and automation. Always learning and building cool tools!
 
 Name: Arthur Máximo Gonçalves
